@@ -21,7 +21,8 @@ app.factory('afWebApiValidationService', ['$q', function ($q) {
                 isModelError: false,
                 savedSuccessfully: true,
                 data: response.data,
-                errors: null
+                errors: null,
+                errorList: null
             };
 
         },
