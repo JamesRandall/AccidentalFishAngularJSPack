@@ -1,0 +1,6 @@
+﻿<p class="server-success" data-ng-hide="!(result.savedSuccessfully && result.message != '')">{{result.message}}</p>
+<div class="server-error" >
+    <ul>
+        <li ng-repeat="error in result.errorList">{{error}}</li>
+    </ul>
+</div>
