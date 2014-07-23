@@ -111,6 +111,31 @@ Yields (with some of the Angular runtime added bindings removed for clarity):
                       rows="5"></textarea>
         </div>
     </div>
+    
+### &lt;af-SubmitButton&gt;
+
+Wrapper for a submit button.
+
+#### Properties
+
+Attribute|Description
+---------|-----------
+ng-click |Click event handler
+
+
+#### Example
+
+The below use of the directive:
+
+    <af-submit-button ng-click="doChangePassword()"></af-submit-button>
+    
+Yields:
+
+    <div class="row">        <div class="col-md-12">            <div class="pull-right">
+                <button class="btn btn-info btn-block"
+                         type="submit"
+                         data-ng-click="ngClick">Submit</button>
+            </div>        </div>    </div>
 
 
 Web API

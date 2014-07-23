@@ -87,4 +87,16 @@
         return d;
     });
 
+    directives.directive('afSubmitButton', function() {
+        var d = {
+            restrict: 'E',
+            templateUrl: '/app/accidentalfishAngularJs/templates/afSubmitButton.html',
+            scope: {
+                ngClick: '&'
+            }
+        };
+
+        return d;
+    });
+
 }(angular.module('afCustomInputs', [])));
