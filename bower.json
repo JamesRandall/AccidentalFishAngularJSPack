@@ -1,6 +1,6 @@
 {
   "name": "accidental-fish-angularjs-pack",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": [
     "dist/afCustomInputs.js",
     "dist/afServerValidationDirective.js",
@@ -25,6 +25,13 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
-  ]
+    "tests",
+    "bower.json",
+    ".bower.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "angular": ">=1.3.0"
+  }
 }
