@@ -1,0 +1,30 @@
+{
+  "name": "AccidentalFishAngularJSPack",
+  "version": "0.0.1",
+  "main": [
+    "dist/afCustomInputs.js",
+    "dist/afServerValidationDirective.js",
+    "dist/afWebApiValidationService.js",
+    "dist/templates/afServerValidation.html",
+    "dist/templates/afSubmitButton.html",
+    "dist/templates/afTextArea.html",
+    "dist/templates/afTextInput.html"
+  ],
+  "homepage": "https://github.com/JamesRandall/AccidentalFish-AngularJS-Pack",
+  "authors": [
+    "James Randall"
+  ],
+  "description": "A handful of useful directives for AngularJS",
+  "keywords": [
+    "AngularJS",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
