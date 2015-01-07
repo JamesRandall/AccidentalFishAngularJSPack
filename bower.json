@@ -1,5 +1,5 @@
 {
-  "name": "AccidentalFishAngularJSPack",
+  "name": "accidental-fish-angularjs-pack",
   "version": "0.0.1",
   "main": [
     "dist/afCustomInputs.js",
@@ -10,7 +10,7 @@
     "dist/templates/afTextArea.html",
     "dist/templates/afTextInput.html"
   ],
-  "homepage": "https://github.com/JamesRandall/AccidentalFish-AngularJS-Pack",
+  "homepage": "https://github.com/JamesRandall/AccidentalFishAngularJSPack",
   "authors": [
     "James Randall"
   ],
