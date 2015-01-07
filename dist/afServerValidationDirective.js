@@ -1,7 +1,7 @@
 ﻿angular.module('afServerValidation', []).directive('afServerValidation', function() {
     var d = {
         restrict: 'E',
-        templateUrl: '/app/accidentalfishAngularJs/templates/afServerValidation.html',
+        templateUrl: '/views/templates/afServerValidation.html',
         scope: {
             result: '=key'
         },

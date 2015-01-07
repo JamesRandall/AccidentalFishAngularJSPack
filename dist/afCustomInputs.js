@@ -51,7 +51,7 @@
     directives.directive('afTextInput', function() {
         var d = {
             restrict: 'E',
-            templateUrl: '/app/accidentalfishAngularJs/templates/afTextInput.html',
+            templateUrl: '/views/templates/afTextInput.html',
             scope: {
                 afName: '=',
                 afLabel: '=',
@@ -69,7 +69,7 @@
     directives.directive('afTextArea', function() {
         var d = {
             restrict: 'E',
-            templateUrl: '/app/accidentalfishAngularJs/templates/afTextArea.html',
+            templateUrl: '/views/templates/afTextArea.html',
             scope: {
                 afName: '=',
                 afLabel: '=',
@@ -90,7 +90,7 @@
     directives.directive('afSubmitButton', function() {
         var d = {
             restrict: 'E',
-            templateUrl: '/app/accidentalfishAngularJs/templates/afSubmitButton.html',
+            templateUrl: '/views/templates/afSubmitButton.html',
             scope: {
                 ngClick: '&'
             }
